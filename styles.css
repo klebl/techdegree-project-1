@@ -3,6 +3,18 @@
   box-sizing: border-box;
 }
   
+#snowboarder {
+  padding: 0px;
+  margin: 5px;
+  border: double yellow; 
+  transition: 1.0s;
+  border-radius: 10%;
+}
+
+#snowboarder:hover {
+  transform: scale(1.0) rotate(360deg);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -70,8 +82,9 @@ header .profile-image {
   width: 140px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 3px solid rgb(129, 154, 223);
+  transition: all 0.75s;
+  border-style: double;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -99,7 +112,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #eea94e;
 }
 
 ul.skills {
