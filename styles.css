@@ -4,11 +4,10 @@
 }
   
 #snowboarder {
-  padding: 0px;
-  margin: 5px;
   border: double yellow; 
   transition: 1.0s;
   border-radius: 10%;
+  align-items: center;
 }
 
 #snowboarder:hover {
@@ -35,7 +34,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -101,7 +100,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -111,7 +110,8 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+
+section:hover {
   border-color: #eea94e;
 }
 
